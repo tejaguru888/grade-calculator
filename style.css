@@ -1,0 +1,69 @@
+/* Style for main heading */
+h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 40px;
+  }
+  
+  /* Style for main container */
+  .main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Style for grading system container */
+  .gradingsystem {
+    width: 40%;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+  }
+  
+  /* Style for input fields */
+  .gradingsystem div {
+    margin: 10px 0px;
+  }
+  
+  .gradingsystem input {
+    margin-left: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 5px;
+    font-size: 16px;
+    width: 70%;
+  }
+  
+  /* Style for calculate button */
+  #calculate {
+    margin: 20px 0px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Style for output container */
+  .output {
+    width: 50%;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+  }
+  
+  /* Style for output headings */
+  .output h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  /* Style for output paragraphs */
+  .output p {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
